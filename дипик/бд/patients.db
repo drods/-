@@ -1,0 +1,9 @@
+CREATE TABLE Patients ( # создание базы данных
+  username TEXT UNIQUE NOT NULL,
+  date_of_birth DATE NOT NULL,
+  disease TEXT NOT NULL
+);
+
+INSERT INTO Patients (username, date_of_birth, disease)
+VALUES ('Мария Иванова', '1985-03-14', 'кариес'),
+      ('Петр Сидоров', '1977-12-25', 'восполенные десна ');
